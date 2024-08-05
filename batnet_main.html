@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BatNet</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-image: url('images/Background-Image.png');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #000;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: 0;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        form input[type="submit"]:hover {
+            background: #555;
+        }
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Batnet-icon.png" alt="BatNet Logo">
+        <button class="nav-toggle">Menu</button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="home.html">Home</a></li> <!-- Ensure the href is correct -->
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Introduction -->
+        <section>
+            <h2>Welcome to BatNet</h2>
+            <p>Experience the highest level of secure communications with BatNet CO. Our services are tailored for military, government, and financial institutions where data security is critical.</p>
+            <img src="images/Batnet-company-logo.png" alt="BatNet CO Skyline" class="section-image">
+        </section>
+
+        <!-- Section 2: Network Infrastructure -->
+        <section>
+            <h2>Our Advanced Network Infrastructure</h2>
+            <p>BatNet employs cutting-edge technology to ensure the security and efficiency of our network. Our infrastructure is designed to protect sensitive information and ensure seamless communication.</p>
+            <img src="images/Batnet-network.png" alt="Network Infrastructure" class="section-image">
+        </section>
+        
+        <!-- Section 3: Security Technologies -->
+        <section>
+            <h2>State-of-the-Art Security Technologies</h2>
+            <p>Our network utilizes advanced security devices and measures, including encrypted DNS servers, firewalls, and intrusion detection systems, to protect against cyber threats.</p>
+            <img src="images/Batnet-security.png" alt="Security Technologies" class="section-image">
+        </section>
+
+        <!-- Section 4: Server Infrastructure -->
+        <section>
+            <h2>Robust Server Infrastructure</h2>
+            <p>Our server infrastructure is built to handle the most demanding tasks with high performance and reliability. We ensure that all data is securely stored and managed.</p>
+            <img src="images/Batnet-server.png" alt="Server Infrastructure" class="section-image">
+        </section>
+
+        <!-- Section 5: Compliance and Contracts -->
+        <section>
+            <h2>Compliance and Contracts</h2>
+            <p>BatNet CO strictly adheres to industry standards and regulatory requirements. Our contract management ensures that all parties are compliant with our high security and privacy standards.</p>
+            <img src="images/Batnet-compliance.png" alt="Compliance and Contracts" class="section-image">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BatNet</p>
+        <p>Contact Us: info@batnet.com</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
