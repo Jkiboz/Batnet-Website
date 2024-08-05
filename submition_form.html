@@ -1,61 +1,114 @@
-<!DOCTYPE html>
+<!--
+    Student Name: John A. Kibozi
+    Current Date: 07/05/2024
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submission Received - BatNet CO</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
+
     <style>
         body {
+            background-image: url('images/Background-Image.png');
+            background-size: cover;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            color: #ffffff;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            display: flex;
+            list-style-type: none;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
-        header, footer {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
         }
         main {
             padding: 20px;
         }
-        h1 {
-            color: #333;
+        section {
+            margin-bottom: 20px;
         }
-        p {
-            font-size: 1.2em;
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
-        .button {
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #000;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form input[type="submit"] {
             background: #333;
             color: #fff;
-            border: none;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
+            border: 0;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
         }
-        .button:hover {
+        form input[type="submit"]:hover {
             background: #555;
+        }
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>BatNet CO</h1>
-    </header>
-
-    <main>
-        <h1>Submission Received</h1>
-        <p>Thank you for submitting your information. We will get back to you shortly.</p>
-        <a href="index.html" class="button">Go Back to Home</a>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 BatNet CO</p>
-        <p>Contact us: info@batnetco.com | Follow us on social media</p>
-    </footer>
+    <div id="container">
+        <header>
+            <h1>BatNet CO</h1>
+        </header>
+        <main>
+            <h1>Submission Received</h1>
+            <p>Thank you for submitting your information. We will get back to you shortly.</p>
+            <a href="index.html" class="button">Go Back to Home</a>
+        </main>
+        <footer>
+            <p>&copy; 2024 BatNet CO</p>
+            <p>Contact us: info@batnetco.com | Follow us on social media</p>
+        </footer>
+    </div>
 </body>
 </html>

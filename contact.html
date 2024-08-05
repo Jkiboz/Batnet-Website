@@ -1,3 +1,8 @@
+<!--
+    Student Name: John A. Kibozi
+    Current Date: 07/05/2024
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,48 +95,41 @@
     </style>
 </head>
 <body>
-    <header>
-        <img src="images/Batnet-company-logo.png" alt="BatNet CO Logo">
-        <button class="nav-toggle">Menu</button>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>Contact Us</h2>
-            <form action="submit_form.html" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <br><br>
-
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-        <section>
-            <h2>Our Location</h2>
-            <p>Find us at our headquarters:</p>
-            <img src="images/Batnet-location.png" alt="Location Map" class="section-image">
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 BatNet CO</p>
-        <p>Contact us: info@batnetco.com | Follow us on social media</p>
-    </footer>
+    <div id="container">
+        <header>
+            <img src="images/Batnet-company-logo.png" alt="BatNet CO Logo">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Contact Us</h2>
+                <form action="submit_form.html" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <section>
+                <h2>Our Location</h2>
+                <p>Find us at our headquarters:</p>
+                <img src="images/Batnet-location.png" alt="Location Map" class="section-image">
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 BatNet CO</p>
+            <p>Contact us: info@batnetco.com | Follow us on social media</p>
+        </footer>
+    </div>
 </body>
 </html>
