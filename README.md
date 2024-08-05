@@ -1,14 +1,15 @@
-# BatNet CO Website
+# BatNet INC Website
 
 ## Overview
 
-Welcome to the BatNet CO website project. This project is a culmination of HTML, CSS, and JavaScript coursework, showcasing skills and capabilities in website development. The BatNet CO website serves as a resource for those involved in secure communications, providing detailed information on encryption technologies, secure communication protocols, and the latest research findings in cybersecurity.
+Welcome to the BatNet INC website project. This project is a culmination of HTML, CSS, and JavaScript coursework, showcasing skills and capabilities in website development. The BatNet CO website serves as a resource for those involved in secure communications, providing detailed information on encryption technologies, secure communication protocols, and the latest research findings in cybersecurity.
 
 ## Project Structure
 
-- **index.html**: The homepage of the website.
+- **batnet_main.html**: The homepage of the website.
+- **home.html**: This page gives the mission statement of Batnet INC.
 - **contact.html**: The contact page with a form for users to reach out.
-- **services.html**: A page detailing the services provided by BatNet CO.
+- **services.html**: A page detailing the services provided by BatNet INC.
 - **testimonials.html**: A page showcasing client testimonials and allowing users to submit their own.
 - **submit_form.html**: A page confirming submission of the contact form.
 - **css/styles.css**: The CSS file containing styles for the website.
