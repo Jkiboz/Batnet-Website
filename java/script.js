@@ -1,5 +1,3 @@
-
-// script.js
 document.addEventListener('DOMContentLoaded', function() {
     console.log("JavaScript is working!");
 
@@ -85,15 +83,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
-.nav-toggle {
-    display: none;
-}
-
-/* For the nav menu toggle in mobiile view */
-
-.nav-menubar.is=active {
-    display: block;
-}
-
-/*  */

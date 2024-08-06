@@ -1,8 +1,8 @@
-# BatNet INC Website
+# BatNet Inc. Website
 
 ## Overview
 
-Welcome to the BatNet INC website project. This project is a culmination of HTML, CSS, and JavaScript coursework, showcasing skills and capabilities in website development. The BatNet CO website serves as a resource for those involved in secure communications, providing detailed information on encryption technologies, secure communication protocols, and the latest research findings in cybersecurity.
+Welcome to the BatNet Inc. website project. This project is a culmination of HTML, CSS, and JavaScript coursework, showcasing skills and capabilities in website development. The BatNet Inc. website serves as a resource for those involved in secure communications, providing detailed information on encryption technologies, secure communication protocols, and the latest research findings in cybersecurity.
 
 ## Project Structure
 
@@ -64,7 +64,7 @@ The website includes the following elements as part of the coursework requiremen
 
 ## Author
 
-- **Your Name**: Jkiboz
+- **Your Name**: John Kibozi
 - **Date**: 8/5/2024
 
 ## Feedback and Contributions

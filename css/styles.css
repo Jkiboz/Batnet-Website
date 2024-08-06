@@ -1,7 +1,7 @@
 /*
-Author: [Your Name]
+Author: John A. Kibozi
 File Name: styles.css
-Date: 07/05/2024
+Date: 07/09/2024
 */
 
 /* CSS Reset */
@@ -9,11 +9,14 @@ body, header, nav, main, footer, img, h1, h3 {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 /* Style rules for body and images */
 body {
     background-color: #f6eee4;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
 img {
@@ -21,78 +24,117 @@ img {
     display: block;
 }
 
+/* Center content in the main container */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center the content inside the section */
+section {
+    width: 80%; /* Adjust the width as needed */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center images */
+.section-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Add this styling for the site-title */
+.site-title {
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #f6eee4;
+    margin-left: 20px; /* Adjust the spacing as needed */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 48%;
+    height: auto;
+    margin: 10px;
+}
+
 /* Style rules for navigation area */
-nav {
+header {
     background-color: #2a1f14;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    text-align: center;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    font-size: 1.5em;
-    font-family: Geneva, Arial, sans-serif;
-    font-weight: bold;
+    display: flex;
+    gap: 20px;
 }
 
 nav li a {
-    display: block;
     color: #f6eee4;
-    padding: 0.5em 2em;
     text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #4d3319;
+    border-radius: 5px;
 }
 
 /* Style rules for main content */
 main {
-    padding: 2%;
-    font-family: Verdana, Arial, sans-serif;
+    padding: 20px;
 }
 
-main p {
-    font-size: 1.25em;
+section {
+    margin-bottom: 20px;
 }
 
-main h3 {
-    padding-top: 2%;
-}
-
-main ul {
-    list-style-type: square;
-}
-
-/* Style rules for class and id selectors */
-.link {
-    color: #4d3319;
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.action {
-    font-size: 1.75em;
-    font-weight: bold;
-    text-align: center;
-}
-
-#contact {
-    text-align: center;
+.section-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 /* Style rules for footer content */
 footer {
-    text-align: center;
-    font-size: 0.85em;
     background-color: #2a1f14;
     color: #f6eee4;
-    padding: 1% 0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 footer a {
     color: #f3e6d8;
     text-decoration: none;
+}
+
+.footer-link {
+    color: #f3e6d8;
+    text-decoration: none;
+    margin: 0 5px;
 }

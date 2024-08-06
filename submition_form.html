@@ -1,6 +1,7 @@
 <!--
     Student Name: John A. Kibozi
-    Current Date: 07/05/2024
+    Current Date: 07/28/2024
+    File Name: submition_form.html
 -->
 
 <!DOCTYPE html>
@@ -8,9 +9,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submission Received - BatNet INC</title>
+    <title>Submission Received - BatNet Inc.</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="scripts/script.js"></script>
+
     <style>
         body {
             background-image: url('images/Background-Image.png');
@@ -41,12 +43,6 @@
             color: #ffffff;
             text-decoration: none;
         }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
         footer {
             background: rgba(0, 0, 0, 0.7);
             color: #fff;
@@ -56,30 +52,58 @@
             width: 100%;
             bottom: 0;
         }
-        .button {
-            background: #333;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #000;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
             border-radius: 4px;
         }
-        .button:hover {
+        form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: 0;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        form input[type="submit"]:hover {
             background: #555;
+        }
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
 <body>
     <div id="container">
         <header>
-            <a href="batnet_main.html">
-                <img src="images/Batnet-compliance.png" alt="BatNet INC Logo">
+            <a href="index.html">
+                <img src="images/Batnet-company-logo.png" alt="BatNet INC Logo">
             </a>
-            <nav>
+            <span class="site-title">BatNet Inc.</span>
+            <nav class="nav-menu">
                 <ul>
-                    <li><a href="batnet_main.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="testimonials.html">Testimonials</a></li>
@@ -89,11 +113,11 @@
         <main>
             <h1>Submission Received</h1>
             <p>Thank you for submitting your information. We will get back to you shortly.</p>
-            <a href="batnet_main.html" class="button">Go Back to Home</a>
+            <a href="index.html" class="button">Go Back to Home</a>
         </main>
         <footer>
-            <p>&copy; 2024 BatNet INC</p>
-            <p>Contact us: info@batnetco.com | Follow us on social media</p>
+            <p>&copy; 2024 BatNet Inc.</p>
+            <p>Contact us: info@batnetinc.com | Follow us on social media</p>
         </footer>
     </div>
 </body>
