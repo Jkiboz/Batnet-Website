@@ -3,6 +3,7 @@
     Current Date: 07/05/2024
 -->
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +11,6 @@
     <title>Submission Received - BatNet INC</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="scripts/script.js"></script>
-
     <style>
         body {
             background-image: url('images/Background-Image.png');
@@ -56,54 +56,40 @@
             width: 100%;
             bottom: 0;
         }
-        form {
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            color: #000;
-        }
-        form label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        form input[type="text"],
-        form input[type="email"],
-        form input[type="tel"],
-        form textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        form input[type="submit"] {
+        .button {
             background: #333;
             color: #fff;
-            border: 0;
-            padding: 10px 15px;
-            cursor: pointer;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
             border-radius: 4px;
         }
-        form input[type="submit"]:hover {
+        .button:hover {
             background: #555;
-        }
-        .section-image {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div id="container">
         <header>
-            <h1>BatNet INC</h1>
+            <a href="batnet_main.html">
+                <img src="images/Batnet-compliance.png" alt="BatNet INC Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="batnet_main.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
             <h1>Submission Received</h1>
             <p>Thank you for submitting your information. We will get back to you shortly.</p>
-            <a href="index.html" class="button">Go Back to Home</a>
+            <a href="batnet_main.html" class="button">Go Back to Home</a>
         </main>
         <footer>
             <p>&copy; 2024 BatNet INC</p>
